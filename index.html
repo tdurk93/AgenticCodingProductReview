@@ -5,74 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Best Agentic Coding Tools for 2025 | Wirecutter-Style Review</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600&display=swap');
+
         body {
-            font-family: 'Georgia', serif;
+            font-family: 'Libre Franklin', -apple-system, BlinkMacSystemFont, sans-serif;
             line-height: 1.6;
-            color: #333;
-            max-width: 1200px;
+            color: #1a1a1a;
+            max-width: 1280px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 24px;
+            background-color: #fff;
+            -webkit-font-smoothing: antialiased;
         }
         header {
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 20px;
-            margin-bottom: 30px;
+            border-bottom: 1px solid #e2e2e2;
+            padding-bottom: 32px;
+            margin-bottom: 40px;
         }
         h1 {
-            font-size: 2.5rem;
-            font-weight: normal;
-            margin-bottom: 10px;
+            font-size: 44px;
+            font-weight: 300;
+            line-height: 1.1;
+            margin-bottom: 16px;
+            letter-spacing: -0.75px;
+            color: #121212;
         }
         h2 {
-            font-size: 1.8rem;
-            font-weight: normal;
-            margin-top: 40px;
-            margin-bottom: 20px;
+            font-size: 32px;
+            font-weight: 300;
+            margin-top: 48px;
+            margin-bottom: 24px;
+            letter-spacing: -0.5px;
+            color: #121212;
         }
         h3 {
-            font-size: 1.4rem;
-            font-weight: normal;
-            margin-top: 30px;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 32px;
+            letter-spacing: -0.2px;
+            color: #121212;
         }
         .subtitle {
-            font-size: 1.2rem;
-            color: #666;
-            margin-bottom: 30px;
+            font-size: 20px;
+            color: #595959;
+            margin-bottom: 32px;
+            line-height: 1.4;
         }
         .byline {
-            font-style: italic;
-            color: #666;
-            margin-bottom: 20px;
+            font-size: 15px;
+            color: #595959;
+            margin-bottom: 16px;
         }
         .updated {
-            font-size: 0.9rem;
-            color: #666;
-            margin-bottom: 30px;
+            font-size: 14px;
+            color: #595959;
+            margin-bottom: 32px;
         }
         .product-card {
-            border: 1px solid #eee;
-            border-radius: 5px;
-            padding: 30px;
-            margin-bottom: 40px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border: 1px solid #e2e2e2;
+            border-radius: 8px;
+            padding: 40px;
+            margin-bottom: 48px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+            background-color: #fff;
         }
         .product-header {
             display: flex;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 28px;
         }
         .product-badge {
-            background-color: #e33d3d;
+            background-color: #c2151c;
             color: white;
-            padding: 8px 15px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            margin-right: 15px;
+            padding: 8px 16px;
+            border-radius: 24px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-right: 20px;
             white-space: nowrap;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         .product-title {
-            font-size: 1.6rem;
+            font-size: 28px;
             margin: 0;
+            font-weight: 400;
+            letter-spacing: -0.2px;
+            color: #121212;
         }
         .product-image {
             width: 100%;
@@ -83,64 +102,135 @@
         }
         .pros-cons {
             display: flex;
-            margin: 30px 0;
-            gap: 30px;
+            margin: 36px 0;
+            gap: 40px;
         }
         .pros, .cons {
             flex: 1;
+            background-color: #f9f9f9;
+            padding: 24px;
+            border-radius: 6px;
         }
         .pros h4, .cons h4 {
             margin-top: 0;
-            font-size: 1.1rem;
-            font-weight: bold;
+            margin-bottom: 16px;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #121212;
         }
         .pros ul, .cons ul {
-            padding-left: 20px;
+            padding-left: 24px;
+            margin: 0;
+            list-style-type: disc;
         }
         .pros li, .cons li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            line-height: 1.5;
+            font-size: 15px;
+            color: #1a1a1a;
+        }
+        .pros li:last-child, .cons li:last-child {
+            margin-bottom: 0;
         }
         .pros h4 {
-            color: #2d862d;
+            color: #2b7d2b;
         }
         .cons h4 {
-            color: #cc3232;
+            color: #c2151c;
         }
         .intro, .conclusion {
-            font-size: 1.1rem;
-            margin: 30px 0;
-            line-height: 1.8;
+            font-size: 18px;
+            margin: 36px 0;
+            line-height: 1.7;
+            color: #1a1a1a;
         }
         .why-trust {
             background-color: #f9f9f9;
-            padding: 20px;
-            margin: 40px 0;
-            border-radius: 5px;
+            padding: 32px;
+            margin: 48px 0;
+            border-radius: 8px;
         }
         .why-trust h3 {
             margin-top: 0;
+            color: #121212;
         }
         .table-of-contents {
             background-color: #f9f9f9;
-            padding: 20px;
-            margin: 30px 0;
-            border-radius: 5px;
+            padding: 32px;
+            margin: 36px 0;
+            border-radius: 8px;
         }
         .table-of-contents h3 {
             margin-top: 0;
+            margin-bottom: 20px;
+            color: #121212;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: -0.2px;
         }
         .table-of-contents ul {
-            padding-left: 20px;
+            padding-left: 24px;
+            margin: 0;
+            list-style-type: none;
         }
         .table-of-contents li {
-            margin-bottom: 10px;
+            margin-bottom: 16px;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+        .table-of-contents li:last-child {
+            margin-bottom: 0;
+        }
+        .table-of-contents a {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+        .table-of-contents a:hover {
+            color: #c2151c;
         }
         .footnote {
-            font-size: 0.9rem;
-            color: #666;
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
+            font-size: 14px;
+            color: #595959;
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid #e2e2e2;
+        }
+
+        p {
+            margin: 0 0 24px 0;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #1a1a1a;
+        }
+
+        ul {
+            margin: 0 0 24px 0;
+            list-style-type: disc;
+        }
+
+        li {
+            margin-bottom: 12px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #1a1a1a;
+        }
+
+        strong {
+            font-weight: 600;
+            color: #121212;
+        }
+
+        a {
+            color: #1a1a1a;
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+
+        a:hover {
+            color: #c2151c;
         }
     </style>
 </head>
@@ -172,7 +262,9 @@
             <div class="product-badge">Our Pick</div>
             <h2 class="product-title">Cline</h2>
         </div>
-        <img src="https://cline.bot/assets/images/cline-hero.png" alt="Cline interface showing planning mode and code generation" class="product-image">
+        <div style="text-align: center; margin: 20px 0;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" class="product-image" style="max-height: none; border: none;" viewBox="0 0 100 100"><g fill="#5487C8" fill-rule="evenodd" transform="translate(.265)"><path fill-rule="nonzero" d="M65.45 15.8c10.887 0 19.714 8.865 19.714 19.8v6.6l5.739 11.465a4 4 0 0 1-.007 3.595L85.164 68.6v6.6c0 10.936-8.827 19.8-19.715 19.8H26.021C15.133 95 6.306 86.136 6.306 75.2v-6.6L.45 57.295A4 4 0 0 1 .44 53.63L6.306 42.2v-6.6c0-10.935 8.827-19.8 19.715-19.8zM30.734 38a9 9 0 0 0-9 9v16a9 9 0 0 0 18 0V47a9 9 0 0 0-9-9m29 0a9 9 0 0 0-9 9v16a9 9 0 0 0 18 0V47a9 9 0 0 0-9-9"></path><circle cx="45.735" cy="11" r="11"></circle></g></svg>
+        </div>
         <p><strong>Why we like it:</strong> Cline stands out with its thoughtful planning approach, extensive visualization capabilities, and superior configurability. It's the most comprehensive agentic coding tool we tested, offering features that help developers not just write code faster but think through problems more effectively.</p>
 
         <div class="pros-cons">
@@ -213,7 +305,9 @@
             <div class="product-badge">Best User Experience</div>
             <h2 class="product-title">Cursor</h2>
         </div>
-        <img src="https://www.cursor.com/static/cursor-hero.png" alt="Cursor interface showing inline code completion" class="product-image">
+        <div style="text-align: center; margin: 20px 0;">
+            <svg width="300" height="100" class="product-image" style="max-height: none; border: none;" fill="#333" viewBox="0 0 69 13" xmlns="http://www.w3.org/2000/svg"><path d="M.61621 6.43836c0-3.50869 2.23066-5.4743 5.49005-5.4743h3.91414v2.09026H6.23091c-1.99579 0-3.35255 1.13895-3.35255 3.38404 0 2.2451 1.35676 3.38404 3.35255 3.38404h3.78949v2.0903H6.10626c-3.25939 0-5.49005-1.99582-5.49005-5.47434ZM12.0472 8.41982V.96549h2.1834v7.00164c0 1.35676.702 1.83964 1.8554 1.83964h1.3095c1.139 0 1.8554-.48288 1.8554-1.83964V.96549h2.1677v7.47008c0 2.35533-1.5588 3.47723-3.6648 3.47723h-2.0273c-2.1205 0-3.6806-1.1232-3.6806-3.49298h.0013ZM23.7734.96549h6.4716c2.2149 0 3.3223 1.18487 3.3223 3.08749 0 1.21636-.5773 2.19917-1.4971 2.46422.9513.10891 1.404.79517 1.404 1.62182v3.77378H31.275V8.65338c0-.57734-.1719-.9828-.9513-.9828h-4.3511v4.24222h-2.1992V.96548Zm6.1763 4.66338c.9986 0 1.404-.53011 1.404-1.30952 0-.84241-.4054-1.29379-1.4341-1.29379h-3.9457v2.60463h3.9772l-.0014-.00132ZM35.5162 9.83815h6.0359c.7334 0 1.2006-.40545 1.2006-1.13895 0-.76367-.4829-1.06022-1.2479-1.1232l-3.0416-.23356c-1.9183-.1404-3.2278-1.10746-3.2278-3.16623 0-2.04302 1.4499-3.21214 3.3525-3.21214h5.9729v2.07451h-5.8482c-.8424 0-1.2794.40545-1.2794 1.1232 0 .74793.4684 1.06022 1.2951 1.13895l3.0875.21781c1.8869.14041 3.1347 1.13895 3.1347 3.15048 0 1.93408-1.3252 3.24368-3.2436 3.24368h-6.1921V9.83815h.0014ZM46.0576 6.42277c0-3.32237 2.4013-5.64488 5.6147-5.64488h.0315c3.2122 0 5.6305 2.32382 5.6305 5.64488 0 3.3368-2.417 5.67633-5.6305 5.67633h-.0315c-3.2121 0-5.6147-2.33953-5.6147-5.67633Zm5.6305 3.55593c1.98 0 3.4312-1.404 3.4312-3.54018 0-2.12044-1.4499-3.54019-3.4312-3.54019-1.9656 0-3.4156 1.41975-3.4156 3.54019 0 2.13618 1.45 3.54018 3.4156 3.54018ZM59.0635.96549h6.4715c2.2149 0 3.3224 1.18487 3.3224 3.08749 0 1.21636-.5774 2.19917-1.4972 2.46422.9513.10891 1.404.79517 1.404 1.62182v3.77378h-2.1991V8.65338c0-.57734-.1719-.9828-.9514-.9828h-4.3511v4.24222h-2.1991V.96548Zm6.1763 4.66338c.9985 0 1.404-.53011 1.404-1.30952 0-.84241-.4055-1.29379-1.4342-1.29379H61.264v2.60463h3.9771l-.0013-.00132Z"></path></svg>
+        </div>
         <p><strong>Why we like it:</strong> Cursor offers a polished, intuitive experience that feels like a natural extension of your coding workflow. Built as a fork of Visual Studio Code rather than just an extension, it provides a more integrated and responsive experience with powerful AI features.</p>
 
         <div class="pros-cons">
@@ -255,7 +349,9 @@
             <div class="product-badge">Best for Microsoft Fanboys</div>
             <h2 class="product-title">GitHub Copilot</h2>
         </div>
-        <img src="https://github.blog/wp-content/uploads/2025/02/copilot-agent-mode.png" alt="GitHub Copilot interface showing agent mode" class="product-image">
+        <div style="text-align: center; margin: 20px 0;">
+            <svg aria-hidden="true" height="200" width="200" viewBox="0 0 16 16" version="1.1" class="product-image" style="max-height: none; border: none;" data-view-component="true"><path fill="#333" d="M7.998 15.035c-4.562 0-7.873-2.914-7.998-3.749V9.338c.085-.628.677-1.686 1.588-2.065.013-.07.024-.143.036-.218.029-.183.06-.384.126-.612-.201-.508-.254-1.084-.254-1.656 0-.87.128-1.769.693-2.484.579-.733 1.494-1.124 2.724-1.261 1.206-.134 2.262.034 2.944.765.05.053.096.108.139.165.044-.057.094-.112.143-.165.682-.731 1.738-.899 2.944-.765 1.23.137 2.145.528 2.724 1.261.566.715.693 1.614.693 2.484 0 .572-.053 1.148-.254 1.656.066.228.098.429.126.612.012.076.024.148.037.218.924.385 1.522 1.471 1.591 2.095v1.872c0 .766-3.351 3.795-8.002 3.795Zm0-1.485c2.28 0 4.584-1.11 5.002-1.433V7.862l-.023-.116c-.49.21-1.075.291-1.727.291-1.146 0-2.059-.327-2.71-.991A3.222 3.222 0 0 1 8 6.303a3.24 3.24 0 0 1-.544.743c-.65.664-1.563.991-2.71.991-.652 0-1.236-.081-1.727-.291l-.023.116v4.255c.419.323 2.722 1.433 5.002 1.433ZM6.762 2.83c-.193-.206-.637-.413-1.682-.297-1.019.113-1.479.404-1.713.7-.247.312-.369.789-.369 1.554 0 .793.129 1.171.308 1.371.162.181.519.379 1.442.379.853 0 1.339-.235 1.638-.54.315-.322.527-.827.617-1.553.117-.935-.037-1.395-.241-1.614Zm4.155-.297c-1.044-.116-1.488.091-1.681.297-.204.219-.359.679-.242 1.614.091.726.303 1.231.618 1.553.299.305.784.54 1.638.54.922 0 1.28-.198 1.442-.379.179-.2.308-.578.308-1.371 0-.765-.123-1.242-.37-1.554-.233-.296-.693-.587-1.713-.7Z"></path><path fill="#333" d="M6.25 9.037a.75.75 0 0 1 .75.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 .75-.75Zm4.25.75v1.501a.75.75 0 0 1-1.5 0V9.787a.75.75 0 0 1 1.5 0Z"></path></svg>
+        </div>
         <p><strong>Why we like it:</strong> GitHub Copilot offers tight integration with the Microsoft ecosystem and provides solid AI-assisted coding capabilities. Its new agent mode, currently available in the Insiders version, shows promise for more autonomous coding assistance.</p>
 
         <div class="pros-cons">
